@@ -8,6 +8,8 @@ Nama: Luthan Asthalariq
 
 NIM: 240170208
 
+Kelas: Pemrograman Web Lanjutan A7
+
 ## Fitur
 
 1. Login dan registrasi pengguna dengan verifikasi email (Laravel Breeze)
@@ -49,8 +51,6 @@ npm install
 cp .env.example .env
 php artisan key:generate
 ```
-
-Sesuaikan variabel DB pada file .env dengan konfigurasi database MySQL yang digunakan, serta variabel MAIL untuk pengiriman email verifikasi. Disarankan menggunakan MAIL_MAILER=log agar tautan verifikasi muncul pada berkas storage/logs/laravel.log.
 
 ### Langkah 4: Migrasi Database dan Storage Link
 
